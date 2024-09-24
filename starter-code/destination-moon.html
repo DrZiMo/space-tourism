@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/main style.css">
+  <link rel="stylesheet" href="css/destination.css">
+  <!-- <script defer src="data.json"></script> -->
+  <script defer src="scripts/destination.js"></script>
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
+  <!-- header -->
+  <div class="header">
+    <div class="icon"></div>
+    <div class="line"></div>
+    <div class="nav">
+      <ul>
+        <a href="index.html">
+          <li><span class="number">00</span>Home</li>
+        </a>
+        <li class="active"><a href="destination-moon.html"><span class="number">01</span>Destination</a></li>
+        <li><span class="number">02</span>Crew</li>
+        <li><span class="number">03</span>Technology</li>
+      </ul>
+    </div>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
+  <!-- main section -->
+  <div class="main-section">
+    <div class="left-part">
+      <div class="main-title">
+        <span>01</span> Pick your destination
+      </div>
+      <div class="main-img">
+        <img src="assets/destination/image-moon.png" alt="Moon Image">
+      </div>
+    </div>
+    <div class="right-part">
+      <div class="sub-nav">
+        <ul>
+          <li class="active" data-index="0">Moon</li>
+          <li data-index="1">Mars</li>
+          <li data-index="2">Europa</li>
+          <li data-index="3">Titan</li>
+        </ul>
+      </div>
+      <div class="destination-info">
+        <div class="destination-title">
+          Loading ...
+        </div>
+        <div class="destination-description">
+          ...
+        </div>
+        <div class="divider"></div>
+        <div class="distance">
+          <div class="dist">
+            <div class="dist-txt">
+              Avg. distance
+            </div>
+            <div class="dist-amount">
+              ...
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-txt">Est. Travel Time</div>
+            <div class="time-amount">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

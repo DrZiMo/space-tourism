@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body {
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-size: cover;
+}
+
+.hero-section {
+    width: 100%;
+    height: calc(100vh - 140px);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.hero-section .left-part {
+    width: 50%;
+}
+
+.hero-section .left-part .hero-mid {
+    font-size: 3rem;
+    font-weight: 100;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.hero-section .left-part .hero-main {
+    font-size: 10rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.hero-section .left-part .hero-sml {
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 40px;
+    word-spacing: 3px;
+    width: 82%;
+}
+
+.hero-section .right-part .white-circle {
+    width: 320px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Crimson Text", serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 200px;
+}
