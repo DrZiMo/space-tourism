@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root {
+    --transition-time: 0.5s;
+}
+
+
+body {
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
+    background-size: cover;
+}
+
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 140px);
+    padding: 60px 200px;
+}
+
+.main-section .left-part {
+    height: 100%;
+    width: 50%;
+}
+
+.main-section .left-part .main-title {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.main-section .left-part .main-title span {
+    color: #666;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.main-section .left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-section .left-part .crew-info .crew-role {
+    font-size: 3rem;
+    font-family: "Crimson Text", serif;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(-90px);
+}
+
+.main-section .left-part .crew-info .crew-role.visible {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.main-section .left-part .crew-info .crew-name {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: "Crimson Text", serif;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(-60px);
+}
+
+.main-section .left-part .crew-info .crew-name.visible {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.main-section .left-part .crew-info .crew-bio {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 35px;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.main-section .left-part .crew-info .crew-bio.visible {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.slider-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100px;
+}
+
+.slider-dots > div {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.slider-dots > div:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.slider-dots > div.current {
+    background-color: #fff;
+}
+
+.main-section .right-part {
+    display: flex;
+    align-items: flex-end;
+    height: inherit;
+}
+
+.main-section .right-part img {
+    
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(200px);
+}
+
+.main-section .right-part img.visible {
+    opacity: 1;
+    transform: translateX(0px);
+}
