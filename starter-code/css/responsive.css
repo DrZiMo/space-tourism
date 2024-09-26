@@ -1,0 +1,300 @@
+@media (max-width: 1800px) {
+    .header .line {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1620px) {
+    .header .line {
+        width: 20%;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .header .line {
+        width: 15%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .hero-section {
+        padding: 0 100px;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 2.5rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 8.5rem;
+    }
+    .hero-section .left-part .hero-sml {
+        font-size: 1.2rem;
+        line-height: 35px;
+    }
+    .hero-section .right-part .white-circle {
+        font-size: 3rem;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .header .line {
+        display: none;
+    }
+    .header .nav {
+        padding-right: 200px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .header .nav {
+        padding-right: 150px;
+        padding-left: 50px;
+    }
+    .header .nav ul li:not(:first-child) {
+        margin-left: 50px;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 2rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 7rem;
+        letter-spacing: 20px;
+    }
+    .hero-section .left-part .hero-sml {
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 2.2px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .header .nav {
+        padding-inline: 50px;
+    }
+    .hero-section {
+        padding: 0 70px;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 1.7rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 6rem;
+    }
+    .hero-section .left-part .hero-sml {
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 2.2px;
+    }
+    .hero-section .right-part .white-circle {
+        font-size: 2.7rem;
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 874px) {
+    .header .nav {
+        padding-inline: 10px;
+    }
+    .header .nav ul li:not(:first-child) {
+        margin-left: 20px;
+    }
+    .header .nav ul li span {
+        font-weight: bold;
+        margin-right: 6px;
+    }
+    .hero-section .left-part {
+        width: 60%;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 1.5rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 5.5rem;
+    }
+    .hero-section .left-part .hero-sml {
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 2.2px;
+    }
+    .hero-section .right-part .white-circle {
+        font-size: 2.2rem;
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-image: url('../assets/home/background-home-tablet.jpg');
+        background-size: cover;
+    }
+    .header {
+        margin-top: 0;
+    }
+    .header .nav {
+        padding-inline: 25px;
+        backdrop-filter: blur(0);
+        background-color: #131522;
+    }
+    .header .nav ul li:not(:first-child) {
+        margin-left: 20px;
+    }
+    .header .nav ul li span {
+        display: none;
+    }
+    .hero-section {
+        padding: 70px 0px;
+        flex-direction: column;
+        align-items: center;
+        height: calc(100vh - 99px);
+    }
+    .hero-section .left-part {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 1.3rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 9rem;
+        font-weight: 100;
+        letter-spacing: 15px;
+        margin-bottom: 20px;
+    }
+    .hero-section .left-part .hero-sml {
+        line-height: 32px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .hero-section .right-part {
+        margin-top: 100px;
+    }
+    .hero-section .right-part .white-circle {
+        font-size: 2.2rem;
+        width: 230px;
+        height: 230px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 690px) {
+    .header .nav ul li {
+        letter-spacing: 0.5px;
+    }
+    .header .nav ul li:not(:first-child) {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+    .header {
+        padding-inline: 50px;
+        padding-top: 30px;
+    }
+    .header .menu-icon {
+        display: block;
+    }
+    .header .nav {
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        backdrop-filter: blur(90px);
+        transform: translateX(217px);
+    }
+    .header .nav.visible {
+        transform: translateX(0);
+    }
+    .header .nav .close-btn {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .header .nav ul {
+        margin-top: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        text-align: left;
+    }
+    .header .nav ul li {
+        padding: 5px;
+    }
+    .header .nav ul li.active::before {
+        content: '';
+        width: 3px;
+        height: 100%;
+        top: 0;
+    }
+    .header .nav ul li:not(.active)::before {
+        content: '';
+        width: 3px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        transition: 0.2s;
+    }
+    .header ul li a,
+    .header .nav ul li.active {
+        padding: 5px 20px;
+    }
+    .header .nav ul li span {
+        display: inline;
+    }
+    .header .nav ul li:not(:first-child) {
+        margin-left: 0px;
+    }
+    .header .nav ul li:not(.active):hover::before {
+        top: 0;
+    }
+    .hero-section .left-part .hero-mid {
+        font-size: 1.3rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 6rem;
+        font-weight: 100;
+        letter-spacing: 15px;
+        margin-bottom: 20px;
+    }
+    .hero-section .left-part .hero-sml {
+        line-height: 30px;
+        font-weight: 200;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-section .left-part .hero-mid {
+        font-size: 1rem;
+    }
+    .hero-section .left-part .hero-main {
+        font-size: 6rem;
+        letter-spacing: 5px;
+    }
+    .hero-section .left-part .hero-sml {
+        line-height: 26px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+    }
+    .hero-section .right-part .white-circle {
+        font-size: 1.5rem;
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+}

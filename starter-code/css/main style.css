@@ -46,7 +46,7 @@ a {
 
 .header .line {
     position: absolute;
-    left: 300px;
+    left: 13%;
     width: 30%;
     height: 1px;
     background-color: white;
@@ -59,6 +59,11 @@ a {
     padding-right: 300px;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
     z-index: 10;
+}
+
+.header .nav .close-btn {
+    display: none;
+    cursor: pointer;
 }
 
 .header .nav ul {
@@ -74,7 +79,6 @@ a {
     font-weight: 200;
     position: relative;
     cursor: pointer;
-    
     padding: 40px 5px;
     overflow: hidden;
 }
@@ -118,4 +122,13 @@ a {
 
 .header .nav ul li:not(.active):hover::before {
     left: 0;
+}
+
+.header .menu-icon {
+    display: none;
+    width: 35px;
+    cursor: pointer;
+}
+.header .menu-icon img {
+    width: 100%;
 }

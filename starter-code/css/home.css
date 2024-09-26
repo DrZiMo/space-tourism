@@ -66,6 +66,10 @@ body {
     transform: translateX(0px);
 }
 
+.hero-section .right-part {
+    /* border: 1px solid red; */
+}
+
 .hero-section .right-part .white-circle {
     width: 320px;
     height: 320px;
@@ -76,7 +80,9 @@ body {
     align-items: center;
     color: black;
     font-family: "Crimson Text", serif;
-    font-weight: bold;
+    font-weight: 100;
+    text-transform: uppercase;
     font-size: 3.5rem;
     margin-top: 200px;
+    letter-spacing: 3px;
 }
