@@ -195,7 +195,7 @@
 
 @media (max-width: 600px) {
     body {
-        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .header {
         padding-inline: 50px;
