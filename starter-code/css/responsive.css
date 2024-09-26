@@ -211,6 +211,7 @@
         right: 0;
         background-color: transparent;
         backdrop-filter: blur(90px);
+        -webkit-backdrop-filter: blur(90px);
         transform: translateX(217px);
     }
     .header .nav.visible {
