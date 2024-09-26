@@ -2,7 +2,7 @@
 
 :root {
     --white: #fff;
-
+    --transition-time: 0.5s;
     --fw-light: 200;
     --fw-regular: 500;
     --fw-bold: 800;

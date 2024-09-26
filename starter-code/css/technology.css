@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body {
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
+    background-size: cover;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 140px);
+    /* padding: 60px 200px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 0;
+    gap: 300px;
+}
+
+.main-section .left-part {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-section .left-part .main-title {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.main-section .left-part .main-title span {
+    color: #666;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.main-section .left-part .leftside-parts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin: auto 0;
+}
+
+.main-section .left-part .leftside-parts .number-slider ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.main-section .left-part .leftside-parts .number-slider ul li {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-family: "Crimson Text", serif;
+}
+
+.main-section .left-part .leftside-parts .number-slider ul li:not(.active) {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.main-section .left-part .leftside-parts .number-slider ul li:not(.active):hover {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+}
+
+.main-section .left-part .leftside-parts .number-slider ul li.active {
+    background-color: white;
+    color: #444;
+}
+
+.main-section .left-part .leftside-parts .vehical-info .terminology {
+    color: #666;
+    font-size: 1.5rem;
+    /* font-family: "Crimson Text", serif; */
+    text-transform: uppercase;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+.main-section .left-part .leftside-parts .vehical-info .vehical-name {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-family: "Crimson Text", serif;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.main-section .left-part .leftside-parts .vehical-info .vehical-name.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.main-section .left-part .leftside-parts .vehical-info .vehical-description {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.main-section .left-part .leftside-parts .vehical-info .vehical-description.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.main-section .right-part {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.main-section .right-part img {
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.main-section .right-part img.visible {
+    opacity: 1;
+    transform: translateY(0)
+}
