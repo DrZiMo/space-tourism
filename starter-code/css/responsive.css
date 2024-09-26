@@ -174,7 +174,7 @@
         text-align: center;
     }
     .hero-section .right-part {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .hero-section .right-part .white-circle {
         font-size: 2.2rem;
@@ -194,12 +194,10 @@
 }
 
 @media (max-width: 600px) {
-    body {
-        overflow: hidden;
-    }
     .header {
         padding-inline: 50px;
         padding-top: 30px;
+        overflow: hidden;
     }
     .header .menu-icon {
         display: block;
@@ -268,7 +266,7 @@
         font-size: 6rem;
         font-weight: 100;
         letter-spacing: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     .hero-section .left-part .hero-sml {
         line-height: 30px;
@@ -294,6 +292,9 @@
         font-weight: 300;
         letter-spacing: 1px;
         font-size: 0.9rem;
+    }
+    .hero-section .right-part {
+        margin-top: 0px;
     }
     .hero-section .right-part .white-circle {
         font-size: 1.5rem;
