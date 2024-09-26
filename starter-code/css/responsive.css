@@ -279,6 +279,9 @@
 }
 
 @media (max-width: 500px) {
+    .header {
+        padding-inline: 30px;
+    }
     .hero-section .left-part .hero-mid {
         font-size: 1rem;
     }
