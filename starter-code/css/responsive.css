@@ -194,10 +194,12 @@
 }
 
 @media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
     .header {
         padding-inline: 50px;
         padding-top: 30px;
-        overflow: hidden;
     }
     .header .menu-icon {
         display: block;
