@@ -24,6 +24,14 @@ body {
     font-weight: 100;
     word-spacing: 10px;
     text-transform: uppercase;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.hero-section .left-part .hero-mid.visible {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 .hero-section .left-part .hero-main {
@@ -32,6 +40,14 @@ body {
     font-weight: 600;
     letter-spacing: 30px;
     text-transform: uppercase;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(-70px);
+}
+
+.hero-section .left-part .hero-main.visible {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 .hero-section .left-part .hero-sml {
@@ -40,6 +56,14 @@ body {
     line-height: 40px;
     word-spacing: 3px;
     width: 82%;
+    transition: opacity var(--transition-time), transform var(--transition-time);
+    opacity: 0;
+    transform: translateX(-90px);
+}
+
+.hero-section .left-part .hero-sml.visible {
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 .hero-section .right-part .white-circle {
