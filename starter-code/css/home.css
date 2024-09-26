@@ -66,10 +66,6 @@ body {
     transform: translateX(0px);
 }
 
-.hero-section .right-part {
-    /* border: 1px solid red; */
-}
-
 .hero-section .right-part .white-circle {
     width: 320px;
     height: 320px;
