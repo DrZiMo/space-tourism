@@ -74,12 +74,16 @@
 }
 
 @media (max-width: 500px) {
+    body {
+        overflow-y: visible;
+        -webkit-overflow-y: visible;
+    }
     .main-section {
         padding: 60px 30px;
     }
     .main-section .left-part {
         justify-content: center;
-        row-gap: 30px;
+        row-gap: 20px;
     }
     .main-section .left-part .crew-info .crew-role {
         font-size: 1rem;
