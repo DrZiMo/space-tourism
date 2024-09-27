@@ -405,9 +405,24 @@
         width: 70%;
     }
     .main-section .sub-nav ul li:not(:first-child) {
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .main-section .destination-info .destination-description {
         margin-bottom: 30px;
+    }
+    .main-section .destination-info .distance {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: space-between;
+    }
+    .main-section .destination-info .distance .dist .dist-txt,
+    .main-section .destination-info .distance .time .time-txt {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .main-section .destination-info .distance .dist .dist-amount,
+    .main-section .destination-info .distance .time .time-amount {
+        font-size: 1.2rem;
     }
 }
