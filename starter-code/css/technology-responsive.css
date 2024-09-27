@@ -127,7 +127,6 @@
 @media (max-width: 500px) {
     .main-section {
         padding: 60px 30px;
-        border: 1px solid red;
         max-width: 100%;
     }
     .main-section .left-part {
