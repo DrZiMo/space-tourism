@@ -38,6 +38,23 @@ function useFetchedData(info) {
 
         vehicalName.textContent = info[index].name;
         vehicalDescription.textContent = info[index].description;
-        vehicalImg.src = info[index].images.portrait;
+        if(window.innerWidth < 800) {
+            vehicalImg.src = info[index].images.landscape;
+        }
+        else {
+            vehicalImg.src = info[index].images.portrait;
+        }
     }, 500)
+}
+
+// change the image src when the user resizes the window
+window.addEventListener('resize', changeImage)
+
+function changeImage() {
+    if(window.innerWidth < 800) {
+        vehicalImg.src = info[index].images.landscape;
+    }
+    else {
+        vehicalImg.src = info[index].images.portrait;
+    }
 }

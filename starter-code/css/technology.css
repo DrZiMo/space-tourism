@@ -3,6 +3,8 @@
 body {
     background-image: url('../assets/technology/background-technology-desktop.jpg');
     background-size: cover;
+    overflow-y: hidden;
+    -webkit-overflow-y: hidden;
 }
 
 .main-section {
@@ -11,7 +13,6 @@ body {
     align-items: center;
     width: 100%;
     height: calc(100vh - 140px);
-    /* padding: 60px 200px; */
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 200px;
@@ -88,7 +89,6 @@ body {
 .main-section .left-part .leftside-parts .vehical-info .terminology {
     color: #666;
     font-size: 1.5rem;
-    /* font-family: "Crimson Text", serif; */
     text-transform: uppercase;
     font-weight: 400;
     word-spacing: 10px;

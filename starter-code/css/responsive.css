@@ -187,6 +187,7 @@
         height: 230px;
         margin: 0;
     }
+
 }
 
 @media (max-width: 690px) {
@@ -286,6 +287,11 @@
     
     .main-section .left-part .main-title {
         font-size: 1rem;
+    }
+
+    /* technology */
+    .main-section {
+        padding: 60px 50px;
     }
 }
 

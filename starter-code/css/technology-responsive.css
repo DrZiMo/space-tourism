@@ -1,0 +1,131 @@
+@media (max-width: 1620px) {
+    .main-section{
+        gap: 150px;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-name {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .main-section {
+        padding: 60px 70px;
+    }
+    .main-section .left-part .leftside-parts {
+        gap: 40px;
+    }
+    .main-section .right-part {
+        width: 40%;
+    }
+    .main-section .right-part img {
+        height: 50%;
+    }
+}
+
+/* laptop or small computers */
+@media (max-width: 1230px) {
+    .main-section .left-part .leftside-parts .vehical-info .terminology {
+        font-size: 1.3rem;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-description {
+        font-size: 1rem;
+    }
+    .main-section .right-part {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1045px) {
+    .main-section .left-part .leftside-parts .number-slider ul li {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    .main-section {
+        gap: 60px;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .terminology {
+        font-size: 1.1rem;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-name {
+        font-size: 2.5rem;
+    }
+    .main-section .right-part {
+        width: 35%;
+    }
+}
+
+@media (max-width: 886px) {
+    .main-section {
+        gap: 50px;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .terminology {
+        font-size: 1rem;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-name {
+        font-size: 1.7rem;
+    }
+    .main-section .right-part {
+        width: 35%;
+    }
+    .main-section .right-part img {
+        height: 40%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+    body {
+        background-image: url('../assets/technology/background-technology-tablet.jpg');
+        background-size: cover;
+        overflow-y: visible;
+        -webkit-overflow-y: visible;
+    }
+    .main-section {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .main-section .left-part .leftside-parts {
+        gap: 30px;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .terminology {
+        font-size: 1.1rem;
+        margin-top: 40px;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-name {
+        font-size: 2.5rem;
+    }
+    .main-section .right-part  {
+        width: 100%;
+    }
+    .main-section .right-part img {
+        height: fit-content;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 690px) {
+    .main-section .left-part .leftside-parts .vehical-info .terminology {
+        font-size: 1rem;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-name {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        background-image: url('../assets/technology/background-technology-mobile.jpg');
+        background-size: cover;
+    }
+    .main-section {
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-section {
+        padding: 60px 40px;
+    }
+}
