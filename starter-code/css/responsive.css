@@ -196,6 +196,7 @@
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
+        -webkit-overflow-x: hidden;
     }
     .header {
         padding-inline: 50px;
