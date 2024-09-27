@@ -396,4 +396,18 @@
         height: 200px;
         margin: 0;
     }
+
+    /* destination */
+    .main-section {
+        padding: 100px 40px 50px;
+    }
+    .main-section .left-part .main-img img {
+        width: 70%;
+    }
+    .main-section .sub-nav ul li:not(:first-child) {
+        margin-left: 40px;
+    }
+    .main-section .destination-info .destination-description {
+        margin-bottom: 30px;
+    }
 }
