@@ -11,15 +11,6 @@
     .hero-section .left-part .hero-mid {
         font-size: 2.4rem;
     }
-
-    /* destination */
-    .main-section .left-part .main-img img{
-        width: 70%;
-    }
-    .main-section .destination-info .distance .dist .dist-amount,
-    .main-section .destination-info .distance .time .time-amount {
-        font-size: 2.5rem;
-    }
 }
 
 @media (max-width: 1500px) {
@@ -47,14 +38,6 @@
         width: 300px;
         height: 300px;
     }
-
-    /* destination */
-    .main-section .destination-info .destination-title {
-        font-size: 6rem;
-    }
-    .main-section .destination-info .destination-description {
-        font-size: 1.3rem;
-    }
 }
 
 @media (max-width: 1380px) {
@@ -63,12 +46,6 @@
     }
     .header .nav {
         padding-right: 200px;
-    }
-
-    /* destination */
-    .main-section .destination-info .distance .dist .dist-amount,
-    .main-section .destination-info .distance .time .time-amount {
-        font-size: 2.1rem;
     }
 }
 
@@ -93,18 +70,7 @@
         line-height: 30px;
         letter-spacing: 2.2px;
     }
-
-    /* destination */
-    .main-section {
-        padding: 60px 100px;
-    }
     .main-section .left-part .main-title {
-        font-size: 1.2rem;
-    }
-    .main-section .destination-info .destination-title {
-        font-size: 5rem;
-    }
-    .main-section .destination-info .destination-description {
         font-size: 1.2rem;
     }
 }
@@ -133,22 +99,8 @@
         height: 270px;
     }
 
-    /* destination */
-    .main-section .sub-nav ul li:not(:first-child) {
-        margin-left: 40px;
-    }
-    .main-section .destination-info .distance .dist .dist-amount,
-    .main-section .destination-info .distance .time .time-amount {
-        font-size: 1.8rem;
-    }
-    .main-section {
-        padding: 60px 70px;
-    }
     .main-section .left-part .main-title {
         font-size: 1rem;
-    }
-    .main-section .destination-info .destination-title {
-        font-size: 4rem;
     }
 }
 
@@ -181,11 +133,6 @@
         font-size: 2.2rem;
         width: 230px;
         height: 230px;
-    }
-
-    /* destination */
-    .main-section .sub-nav ul li:not(:first-child) {
-        margin-left: 30px;
     }
 }
 
@@ -239,27 +186,6 @@
         width: 230px;
         height: 230px;
         margin: 0;
-    }
-
-    /* destination */
-    .main-section {
-        flex-direction: column;
-        row-gap: 50px;
-        height: fit-content;
-    }
-    .main-section .left-part {
-        width: 100%;
-    }
-    .main-section .left-part .main-img {
-        margin-top: 50px;
-    }
-    .main-section .left-part .main-img img {
-        margin: 0 auto;
-        width: 40%;
-    }
-    
-    .main-section .right-part {
-        width: 100%;
     }
 }
 
@@ -357,16 +283,9 @@
         letter-spacing: 2px;
         text-align: center;
     }
-
-    /* destination */
-    .main-section .sub-nav ul li:not(:first-child) {
-        margin-left: 40px;
-    }
+    
     .main-section .left-part .main-title {
         font-size: 1rem;
-    }
-    .main-section .destination-info .destination-title {
-        font-size: 3rem;
     }
 }
 
@@ -395,34 +314,5 @@
         width: 200px;
         height: 200px;
         margin: 0;
-    }
-
-    /* destination */
-    .main-section {
-        padding: 100px 40px 50px;
-    }
-    .main-section .left-part .main-img img {
-        width: 70%;
-    }
-    .main-section .sub-nav ul li:not(:first-child) {
-        margin-left: 20px;
-    }
-    .main-section .destination-info .destination-description {
-        margin-bottom: 30px;
-    }
-    .main-section .destination-info .distance {
-        flex-wrap: wrap;
-        row-gap: 20px;
-        justify-content: space-between;
-    }
-    .main-section .destination-info .distance .dist .dist-txt,
-    .main-section .destination-info .distance .time .time-txt {
-        font-size: 1rem;
-        letter-spacing: 1px;
-        word-spacing: 1px;
-    }
-    .main-section .destination-info .distance .dist .dist-amount,
-    .main-section .destination-info .distance .time .time-amount {
-        font-size: 1.2rem;
     }
 }

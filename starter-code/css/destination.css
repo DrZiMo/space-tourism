@@ -177,17 +177,3 @@ body {
 .main-section .destination-info .distance .time .time-amount.visible {
     opacity: 1;
 }
-
-@media (max-width: 800px) {
-    body {
-        background-image: url('../assets/destination/background-destination-tablet.jpg');
-        background-size: cover;
-    }
-}
-
-@media (max-width: 600px) {
-    body {
-        background-image: url('../assets/destination/background-destination-mobile.jpg');
-        background-size: cover;
-    }
-}

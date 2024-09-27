@@ -1,0 +1,101 @@
+@media (max-width: 1620px) {
+    .main-section .left-part .crew-info .crew-role {
+        font-size: 2.5rem;
+    }
+    .main-section .left-part .crew-info .crew-name {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    .main-section {
+        justify-content: space-between;
+        gap: 50px;
+        padding: 60px 70px;
+    }
+    .main-section .left-part {
+        width: 60%;
+    }
+    .main-section .left-part .crew-info .crew-role {
+        font-size: 2rem;
+    }
+    .main-section .left-part .crew-info .crew-name {
+        font-size: 4rem;
+    }
+    .main-section .left-part .crew-info .crew-bio {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 886px) {
+    .main-section .left-part .crew-info .crew-role {
+        font-size: 1.5rem;
+    }
+    .main-section .left-part .crew-info .crew-name {
+        font-size: 3rem;
+    }
+    .main-section .left-part .crew-info .crew-bio {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+    body {
+        background-image: url('../assets/crew/background-crew-tablet.jpg');
+        background-size: cover;
+    }
+    .main-section {
+        padding: 60px 50px;
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        height: calc(100vh - 100px);
+    }
+    .main-section .left-part {
+        width: 100%;
+    }
+    .main-section .right-part {
+        height: 52%;
+        width: 50%;
+    }
+    .main-section .right-part img {
+        height: 100%;
+        margin: 0 auto;
+    }
+    .slider-dots {
+        width: 80px;
+    }
+    .slider-dots > div {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-section {
+        padding: 60px 30px;
+    }
+    .main-section .left-part {
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .main-section .left-part .crew-info .crew-role {
+        font-size: 1rem;
+    }
+    .main-section .left-part .crew-info .crew-name {
+        font-size: 2rem;
+    }
+    .main-section .left-part .crew-info .crew-bio {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+    .slider-dots {
+        width: 60px;
+    }
+    .slider-dots > div {
+        width: 8px;
+        height: 8px;
+    }
+}
