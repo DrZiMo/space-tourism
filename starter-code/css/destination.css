@@ -38,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 .main-section .left-part .main-img img {
@@ -175,4 +176,18 @@ body {
 .main-section .destination-info .distance .dist .dist-amount.visible,
 .main-section .destination-info .distance .time .time-amount.visible {
     opacity: 1;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-image: url('../assets/destination/background-destination-tablet.jpg');
+        background-size: cover;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url('../assets/destination/background-destination-mobile.jpg');
+        background-size: cover;
+    }
 }

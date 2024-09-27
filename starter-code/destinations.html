@@ -8,7 +8,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="css/main style.css">
   <link rel="stylesheet" href="css/destination.css">
-  <!-- <script defer src="data.json"></script> -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <script defer src="scripts/menu-closed buttons.js"></script>
   <script defer src="scripts/destination.js"></script>
 
   <title>Frontend Mentor | Space tourism website</title>
@@ -20,14 +21,18 @@
     <div class="icon"><img src="assets/shared/logo.svg" alt="logo"></div>
     <div class="line"></div>
     <div class="nav">
+      <div class="close-btn">
+        <img src="assets/shared/icon-close.svg" alt="close-btn">
+      </div>
       <ul>
-        <a href="index.html">
-          <li><span class="number">00</span>Home</li>
-        </a>
-        <li class="active"><a href="destinations.html"><span class="number">01</span>Destination</a></li>
+        <li><a href="index.html"><span class="number">00</span>Home</a></li>
+        <li class="active"><span class="number">01</span>Destination</li>
         <li><a href="crew.html"><span class="number">02</span>Crew</a></li>
         <li><a href="technology.html"><span class="number">03</span>Technology</a></li>
       </ul>
+    </div>
+    <div class="menu-icon">
+      <img src="assets/shared/icon-hamburger.svg" alt="humburger icon">
     </div>
   </div>
 
