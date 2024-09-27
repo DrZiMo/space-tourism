@@ -128,6 +128,7 @@
     .main-section {
         padding: 60px 30px;
         max-width: 100%;
+        row-gap: 50px;
     }
     .main-section .left-part {
         width: 100%;
