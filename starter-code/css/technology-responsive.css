@@ -126,6 +126,21 @@
 
 @media (max-width: 500px) {
     .main-section {
-        padding: 60px 40px;
+        padding: 60px 30px;
+        border: 1px solid red;
+        max-width: 100%;
+    }
+    .main-section .left-part {
+        width: 100%;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .terminology {
+        font-size: 1rem;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-name {
+        font-size: 1.5rem;
+    }
+    .main-section .left-part .leftside-parts .vehical-info .vehical-description {
+        font-size: 0.9rem;
+        line-height: 25px;
     }
 }
